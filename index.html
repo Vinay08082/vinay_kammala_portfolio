@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINAY-Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(3, 3, 27);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            width: 100%;
+            background-color: rgb(25, 25, 47);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(163, 163, 213);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 80%;
+            /* height: 650px; */
+        }
+
+        .purple {
+            color: rgb(131, 96, 163);
+        }
+
+        #element {
+            color: rgb(131, 96, 163);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(48, 38, 79);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.6rem;
+        }
+
+        .secondsection h1:hover {
+            color: rgb(45, 45, 122);
+        }
+
+        .secondsection p {
+            margin-top: 20px;
+        }
+
+        .secondsection p:hover {
+            cursor: pointer;
+        }
+
+        .thirdsection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .thirdsection h1 {
+            font-size: 1.6rem;
+        }
+
+        .thirdsection h1:hover {
+            color: rgb(45, 45, 122);
+        }
+
+        #gap {
+            margin-top: 20px;
+        }
+
+        .thirdsection p {
+            margin-top: 10px;
+        }
+
+        .thirdsection p:hover {
+            cursor: pointer;
+        }
+
+        .fourthsection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .fourthsection h1 {
+            font-size: 1.6rem;
+        }
+
+        .fourthsection h1:hover {
+            color: rgb(45, 45, 122);
+        }
+
+        button {
+            margin-top: 10px;
+            /* margin-bottom: 25px; */
+            height: 30px;
+            width: 200px;
+            background-color: rgb(207, 127, 145);
+            color: cornsilk;
+        }
+
+        button:hover {
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+        #small{
+            margin-top: 10px;
+        }
+
+        .fourthsection p:hover{
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        nav .left:hover{
+            font-size: 5vh;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="left">VINAY'S Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection" id="home">
+            <div class="leftsection">
+                Hi,My name is <span class="purple">Vinay</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="vinay3.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection" id="about">
+            <h1>Career Objective</h1>
+            <p>As a motivated Computer Science & Engineering student, I aim to apply my skills in programming
+                ,algorithms and data structures to real-
+                world projects. Eager to contribute to innovative solutions, I seek opportunities for growth in a
+                dynamic tech environment focused on
+                continuous learning and impact</p>
+
+            <h1 id="gap">Technical Skills</h1>
+            <p>Languages: Java, JavaScript, C, C++, HTML, CSS <br>
+                Databases: MySQL <br>
+                Frameworks/Technologies: JSP, JDBC, ReactJS, Spring Boot <br>
+                Concepts: Data Structures, Problem Solving, REST APIs <br>
+                Soft Skills: Communication (English, Hindi & Telugu), Empathy, Multitasking, Attention to Detail</p>
+        </section>
+        <hr>
+        <section class="thirdsection" id="projects">
+            <h1>Projects</h1>
+            <h3 id="gap">Employee Management System</h3>
+            <p>
+                Tech: Spring Boot, ReactJS <br>
+                - Built an internal dashboard for employee CRUD operations with real-time. <br>
+                - Focused on accurate backend data handling and consistent user interaction.
+            </p>
+            <h3 id="gap">Authorized Searchable Framework for e-Healthcare System</h3>
+            <p>
+                Tech: Java, JSP, JDBC <br>
+                - Led a team to develop a healthcare system improving doctor-patient interactions. <br>
+                - Strengthened user support features and optimized responsiveness and reliability.
+            </p>
+        </section>
+        <hr>
+        <section class="fourthsection" id="contact">
+            <h1>Contact details</h1>
+            <h3 id="gap">My Resume</h3>
+            <a href="https://drive.google.com/file/d/1DfSBkwMehPohn80YaWo7el5bhP5wf-JR/view?usp=drivesdk"><button>Get
+                    Resume</button></a>
+            <h3 id="small">Phone no.:</h3>
+            <p style="color: rgb(166, 138, 138);">9492137157</p>
+            <h3 id="small">Email:</h3>
+            <p style="color: rgb(120, 110, 110); margin-bottom: 25px;">kammalavinay882004@gmail.com</p>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer', 'Software Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
